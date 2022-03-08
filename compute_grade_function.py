@@ -11,4 +11,5 @@ def compute_grade (grade):
         print ("F")
 
 
-compute_grade (64)
+grade = float(input('enter a score\n'))
+compute_grade (grade)
